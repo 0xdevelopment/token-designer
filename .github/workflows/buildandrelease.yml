@@ -64,6 +64,8 @@ jobs:
     - name: 🚀 Build
       run: |
         npm install
+        npm install grpc_tools
+        npm install grpc_tools_node_protoc_ts
         npm run compile
     - name: 🔢 Set version
       run: npm run setversion
