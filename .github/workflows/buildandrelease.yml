@@ -64,7 +64,6 @@ jobs:
     - name: 🚀 Build
       run: |
         npm install
-        npm install grpc_tools@1.11
         npm install grpc_tools_node_protoc_ts
         npm run compile
     - name: 🔢 Set version
